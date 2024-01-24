@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/v1/swiish
+Content-Type: application/json
+
+{
+  "swiish": "test swiish",
+  "swiishTimeStamp": "2022-01-13T12:00:00Z"
+}

@@ -1,0 +1,62 @@
+.postBox{
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid grey;
+    margin-bottom: 20px;
+}
+.postBox__header{
+    padding: 15px;
+    display: flex;
+}
+.postBox__userData{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 8px;
+}
+.postBox__displayName{
+    margin-right: 2px;
+    color: rgb(46, 45, 45);
+    font-weight: 700;
+}
+
+.postBox__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.postBox__input{
+    width: 70%;
+    height: 100px;
+    margin-left: 30px;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 20px;
+}
+.postBox__inputFile{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.postBox__containButton{
+    margin-left: 80%;
+}
+
+.postBox__btn{
+    width: 70% !important;
+    background-color: purple !important;
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    margin-bottom: 20px !important;
+}

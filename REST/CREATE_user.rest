@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/v1/signUp
+Content-Type: application/json
+
+{
+  "displayName": "TestDisplay",
+  "userName": "TesUserName",
+  "profilPic": null,  
+  "emailAdress": "test@example.com",
+  "pet": "TestPet",
+  "password": "password"
+}
