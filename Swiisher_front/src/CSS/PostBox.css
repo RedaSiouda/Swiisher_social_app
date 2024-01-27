@@ -1,62 +1,75 @@
 .postBox{
-    width: 100%;
-    height: auto;
-    border-bottom: 5px solid purple;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 500px;
+    box-shadow: 9px 9px 11px -3px rgba(20,19,20,1);
+    -webkit-box-shadow: 9px 9px 11px -3px rgba(20,19,20,1);
+    -moz-box-shadow: 9px 9px 11px -3px rgba(20,19,20,1);
+    max-width: 550px;
+    border-right: 3px solid var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: auto;
 }
 .postBox__header{
-    padding: 15px;
     display: flex;
 }
 .postBox__userData{
-    display: flex;
-    margin-top: 18px;
-    margin-left: 8px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: white;
 }
-.postBox__displayName{
-    margin-right: 2px;
-    color: rgb(42, 38, 38);
-    font-weight: 700;
-}
-
 .postBox__form{
-    display: flex;
-    flex-direction: column;
+    color: white;
 }
-
 .postBox__input{
-    width: 70%;
-    height: 100px;
-    margin-left: 30px;
-    border: none;
-    font-size: 25px;
-    padding: 10px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    margin-left: 60px;
+    height: 30px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: transparent;
+    transition: font-size 0.2s ease-in-out;
+    -webkit-transition: font-size 0.2s ease-in-out;
+    -moz-transition: font-size 0.2s ease-in-out;
+    -ms-transition: font-size 0.2s ease-in-out;
+    -o-transition: font-size 0.2s ease-in-out;
+}
+.postBox__input:focus{
+    font-size: 12px;
 }
 .postBox__inputFile{
-    margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 60px;
+    border: none;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: transparent;
 }
-
-.postBox__containButton{
-    margin-left: 80%;
-}
-
 .postBox__btn{
-    width: 70% !important;
+    margin-left: 350px !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
     background-color: purple !important;
+    color: white !important;
+    font-weight: 800 !important;
     border-radius: 30px !important;
     -webkit-border-radius: 30px !important;
     -moz-border-radius: 30px !important;
     -ms-border-radius: 30px !important;
     -o-border-radius: 30px !important;
-    color: white !important;
-    font-weight: 700 !important;
-    font-size: 16px !important;
-    margin-bottom: 20px !important;
+    border: none !important;
+}
+.postBox__avatar{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid var(--back-color);
 }

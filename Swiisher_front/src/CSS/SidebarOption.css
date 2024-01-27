@@ -9,6 +9,7 @@
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     padding: 5px;
+    color: white;
 }
 .sidebarOption__option{
     font-size: 30px;
@@ -16,7 +17,6 @@
     font-weight: 600;
 }
 .sidebarOption__content:hover{
-    color: purple !important;
     cursor: pointer;
-    background-color: rgba(227, 219, 219, 0.982);
+    background-color: purple;
 }

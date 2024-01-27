@@ -1,8 +1,10 @@
 
-
+.post{
+    margin-top: 50px;
+}
 .post__container{
-    border-right: 2.5px solid grey;
-    border-left: 2.5px solid grey;
+    border-right: 2.5px solid white;
+    border-left: 2.5px solid white;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -11,7 +13,7 @@
 }
 
 .post__header{
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid white;
     padding-left: 10px;
     display: flex;
     padding-bottom: 10px;
@@ -23,6 +25,7 @@
 }
 .post__displayName{
     font-size: 18px;
+    color: white;
 }
 .post__userName{
     font-size: 14px;
@@ -36,7 +39,7 @@
 }
 
 .post__swiishPic{
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid white;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -62,12 +65,14 @@
     font-size: 18px;
     margin-left: 20px;
     margin-top: 10px;
+    color: white;
 }
 .post__footer{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
+    color: white;
 }
 .post__likeComent{
     width: 80px;

@@ -1,4 +1,5 @@
 .app{
   display: flex;
   flex: 1;
+  background-image: radial-gradient(circle, #cf1db8, #bc17b2, #a911ab, #960ca4, #83079d);
 }
