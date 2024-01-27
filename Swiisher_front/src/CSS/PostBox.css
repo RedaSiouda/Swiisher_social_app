@@ -1,7 +1,7 @@
 .postBox{
     width: 100%;
     height: auto;
-    border-bottom: 5px solid rgb(211, 14, 14);
+    border-bottom: 5px solid purple;
     margin-bottom: 20px;
 }
 .postBox__header{
