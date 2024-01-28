@@ -12,7 +12,6 @@
     text-align: center;
     font-size: 35px;
     color: white;
-    margin-bottom: 20px;
 }
 .signIn__slogan{
     text-align: center;
@@ -23,7 +22,6 @@
 .signIn__containForm{
     width: 100%;
     height: 90%;
-    background-color: brown;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,14 +37,61 @@
     -o-border-radius: 15px;
     padding: 20px;
 }
+.signIn__titleForm{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
 .signIn__containInput{
     width: 80%;
-    height: 50%;
-    background-color: blue;
+    height: 40%;
     margin: auto;
 }
 .signIn__input{
-    width: 80%;
+    width: 100%;
     height: 40px;
     margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: font-size 0.2s ease-in-out;
+    -webkit-transition: font-size 0.2s ease-in-out;
+    -moz-transition: font-size 0.2s ease-in-out;
+    -ms-transition: font-size 0.2s ease-in-out;
+    -o-transition: font-size 0.2s ease-in-out;
+}
+.signIn__input:focus{
+    font-size: 12px;
+}
+.signIn__btnSubmit{
+    width: 80%;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: red;
+}
+
+.signIn__formMetaContent{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.signIn__checkbox{
+    margin-right: 10px;
+}
+.signIn__signUpAnchor{
+    font-weight:600;
+    color: gainsboro;
 }

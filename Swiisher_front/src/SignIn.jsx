@@ -1,6 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react';
+import { useMutation } from 'react-query';
+import loginRequest from './Requests/request';
 import './CSS/SignIn.css';
+
+
+
+
 function SignIn() {
+
+  const [emailAdress, setEmailAdress] = useState('');
+  const [password, setPassword] = useState('');
+
+  const mutation = useMutation(loginRequest);
+
   return (
     <div className='signIn'>
       <div className="signIn__header">
@@ -11,10 +23,19 @@ function SignIn() {
         <form action="submit" className="signIn__form">
             <div className="signIn__titleForm">Connexion</div>
                 <div className="signIn__containInput">
-                    <input placeholder='Email' id='username' name='username' type="text" className="signIn__input" />   
-                    <input placeholder='Password' id='username' name='password' type="password" className="signIn__input" />
+                    <input placeholder='Email' id='emailAdress' name='emailAdress' type="text" className="signIn__input" />   
+                    <input placeholder='Password' id='password' name='password' type="password" className="signIn__input" />
                 </div>
             <button type='submit' className="signIn__btnSubmit">Connexion</button>
+            <div className="signIn__formMetaContent">
+              <div className="signIn__contentLabelInput">
+                <input id='checkbox' name='checkbox' type="checkbox" className="signIn__checkbox" />
+                <label htmlFor="checkbox" className="signIn__label">Se souvenir de moi</label>
+              </div>
+              <div className="signIn__signUp">
+                <a href="" className="signIn__signUpAnchor">Nouveau ?</a>
+              </div>
+            </div>
         </form>
       </div>
     </div>
