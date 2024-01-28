@@ -13,10 +13,10 @@ const generateToken = (userId) =>{
 
 const loginUser = async (req, res) =>{
     try{
-        const {userName, password} = req.body
+        const {emailAdress, password} = req.body
 
         // Find the user by username
-    const user = await UserModel.findOne({ userName });
+    const user = await UserModel.findOne({ emailAdress });
 
     if (!user) {
         return res.status(401).json({ error: 'Invalid credentials' });

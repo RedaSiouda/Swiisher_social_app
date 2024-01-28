@@ -3,13 +3,12 @@ import SideBard from './Components/SideBard';
 import Feed from './Components/Feed';
 import './App.css'
 import Widget from './Components/Widget';
+import SignIn from './SignIn';
 
 function App() {
   return (
     <div className='app'>
-      <SideBard/>
-      <Feed />
-      <Widget />
+      <SignIn />
     </div>
   )
 }
