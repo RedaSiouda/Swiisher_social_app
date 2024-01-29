@@ -1,0 +1,90 @@
+.signUp{
+    width: 100%;
+    height: 100vh;
+}
+.signUp__header{
+    width: 100%;
+    height: 90px;
+    background-color: purple;
+    padding: 20px;
+}
+.signUp__title{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+.signUp__slogan{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.signUp__containForm{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signUp__form{
+    width: 450px;
+    height: 600px;
+    background-color: purple;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 20px;
+    
+}
+.signUp__titleForm{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+.signUp__containInput{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+}
+.signUp__input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: font-size 0.2s ease-in-out;
+    -webkit-transition: font-size 0.2s ease-in-out;
+    -moz-transition: font-size 0.2s ease-in-out;
+    -ms-transition: font-size 0.2s ease-in-out;
+    -o-transition: font-size 0.2s ease-in-out;
+}
+.signUp__input:focus{
+    font-size: 12px;
+}
+.signUp__labelInput{
+    color: white;
+    font-size: 20px;
+}
+
+.signUp__btnSubmit{
+    width: 80%;
+    height: 50px;
+    margin-left: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgb(255, 0, 242);
+}
