@@ -9,7 +9,9 @@ import SignUp from './SignUp';
 function App() {
   return (
     <div className='app'>
-      <SignIn />
+      <SideBard />
+      <Feed />
+      <Widget />
     </div>
   )
 }

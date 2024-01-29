@@ -72,13 +72,15 @@
     width: 80%;
     height: 50px;
     margin-left: 30px;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    background-color: red;
+    background-color: rgb(255, 0, 242);
+    color: white;
+    font-weight: 700;
 }
 
 .signIn__formMetaContent{
@@ -87,6 +89,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    color: white;
 }
 .signIn__checkbox{
     margin-right: 10px;
